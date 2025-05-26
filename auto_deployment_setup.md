@@ -44,6 +44,53 @@ To test that the auto-deployment is working:
 2. Commit and push the change
 3. Check your Hostinger website after a few minutes to see if the change has been deployed
 
+## Additional Step: Setting Up SSH Key Authentication
+
+To enable secure deployments using SSH authentication:
+
+### Step 1: Add the SSH Key to GitHub
+
+1. Go to your GitHub account settings
+2. Click on "SSH and GPG keys" in the sidebar
+3. Click "New SSH key"
+4. Give your key a descriptive title like "Hostinger Deployment Key"
+5. In the "Key" field, paste the following SSH key:
+   ```
+   ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCwE4p52hYKIjYjGrT8JjUDrthHJa+hsO7yfhiVqZ7WVd7KeBnwKuNAemKoc0Aj1Vy/bHlllqSp0LOh15cHBTVWE7W6opmOk84HFHy0wkqmWCV9GTm/bkFHyW90yVaxVqOhWt7iqTlDG9lEq7pwL0zVb/nt1cL52acWCKOsbradzb+QOWiJYscJmns3bLzGI8pekv9vENxyGeWG5S481PI4wLcv8b9eMdm1xC4sxZSASKNMvhfc0aoUGd2iqMiS15aBPAkOy/W28HXwIQIdtScrppUIpFETuJJU9chYKKf9rIZd2OWHU4ijTQaRafnkbONY/BU2yOz5DIBmIVqHCMaNSeDUZo++VbHfwS8TZ6NPjd2QvpI7FfiBfLkAYXJ4eEDsNEwW/qfCJqUJkeaSVucSVXFyZyfEvw2O2GjxCm4cnqEspnCjTN/u96hQouKzhIRP3O/qXpjR8e6qWwfBovQvHFohdHxxvlOg+oHWlVmPSiW7c4JB3PaSBIXF7B3RueM= u994612207@in-mum-web1856.main-hosting.eu
+   ```
+6. Click "Add SSH key"
+
+### Step 2: Update Remote URL (If Using HTTPS)
+
+If you're currently using HTTPS to connect to your GitHub repository, you'll need to update it to use SSH:
+
+1. Check your current remote URL:
+   ```bash
+   git remote -v
+   ```
+
+2. If it shows an HTTPS URL (https://github.com/...), update it to SSH:
+   ```bash
+   git remote set-url origin git@github.com:UmeshCode1/indo-american-Play-School.git
+   ```
+
+### Step 3: Test the Connection
+
+Test that your SSH connection is working correctly:
+
+```bash
+ssh -T git@github.com
+```
+
+You should see a message confirming your authentication.
+
+### Benefits of SSH Key Authentication
+
+- No need to enter passwords when pushing changes
+- More secure than password authentication
+- Required for some automated deployment workflows
+- Works seamlessly with the webhook auto-deployment system
+
 ## Troubleshooting
 
 If the auto-deployment isn't working:
