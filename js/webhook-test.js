@@ -16,4 +16,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // This comment can be updated to test the webhook
-// Last webhook test: May 26, 2025
+// Last webhook test: May 26, 2025 - Auto-deployment test confirmed
