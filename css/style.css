@@ -6,8 +6,8 @@
 /* ===== GENERAL STYLING ===== */
 :root {
     /* Primary Colors */
-    --primary: #FF6B6B;
-    --primary-light: #FFD8D8;
+    --primary: #3F51B5; /* Changed from #FF6B6B (orange-red) to #3F51B5 (indigo blue) */
+    --primary-light: #C5CAE9; /* Changed from #FFD8D8 to a light indigo color */
     --secondary: #4ECDC4;
     --secondary-light: #CBF3F0;
     
@@ -60,8 +60,8 @@ a {
 
 .btn-primary:hover, 
 .btn-primary:focus {
-    background-color: #ff5252;
-    border-color: #ff5252;
+    background-color: #303F9F; /* Changed from #ff5252 to a darker indigo */
+    border-color: #303F9F;
 }
 
 .btn-outline-primary {
@@ -1427,21 +1427,21 @@ hr {
 }
 
 .developer-tag .heart {
-  color: #e74c3c;
+  color: #3F51B5; /* Changed from #e74c3c (red) to match our new primary color */
   animation: pulse 1.5s infinite;
   display: inline-block;
   margin: 0 3px;
 }
 
 .developer-tag a {
-  color: #3498db;
+  color: #3F51B5; /* Changed from #3498db (blue) to match our new primary color */
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .developer-tag a:hover {
-  color: #2980b9;
+  color: #303F9F; /* Changed from #2980b9 to a darker shade of our primary color */
   transform: translateY(-2px);
 }
 
