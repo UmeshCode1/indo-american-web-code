@@ -20,7 +20,16 @@ A modern, responsive website for Indo American Play School featuring:
 
 ## Deployment
 
-This repository is set up with automatic deployment to Hostinger:
+This repository can be deployed in two ways:
+
+### 1. GitHub Pages Deployment
+
+The website is automatically deployed to GitHub Pages when changes are pushed to the `master` branch:
+- Visit the live site at: https://umeshcode1.github.io/indo-american-web-code/
+
+### 2. Hostinger Deployment (Alternative)
+
+This repository is also set up with automatic deployment to Hostinger:
 
 1. **Automatic Deployment**: Changes pushed to the `master` branch are automatically deployed to the live website.
 
