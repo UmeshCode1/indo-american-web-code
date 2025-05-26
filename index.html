@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indo American Play School - Where East Meets West & Little Minds Take Flight!</title>
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Indo American Play School offers a unique fusion of American education style with Indian values for children aged 2-6 years. Explore our playgroup, nursery, LKG, and UKG programs.">
+    <meta name="keywords" content="play school, kindergarten, kids school, Indo American education, preschool, early education, nursery, LKG, UKG">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts - Bubbly, kid-friendly fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Indo American Play School" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" id="nav_home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" id="nav_about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="programs.html" id="nav_programs">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="facilities.html" id="nav_facilities">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admissions.html" id="nav_admissions">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html" id="nav_gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="parent-zone.html" id="nav_parent_zone">Parent Zone</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" id="nav_contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="ms-auto d-flex align-items-center">
+                    <div class="dropdown me-3">
+                        <button class="btn btn-outline-primary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-globe"></i> EN
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item active" href="#" data-lang="en">English</a></li>
+                            <li><a class="dropdown-item" href="#" data-lang="hi">हिन्दी</a></li>
+                        </ul>
+                    </div>
+                    <a href="admissions.html" class="btn btn-primary" id="nav_apply_now">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                        <h1 id="hero_title">Where East Meets West & Little Minds Take Flight!</h1>
+                        <p class="lead" id="hero_subtitle">A nurturing environment that combines American educational methodologies with Indian values, designed for children aged 2-6 years.</p>
+                        <div class="hero-buttons">
+                            <a href="contact.html" class="btn btn-primary btn-lg me-2" id="hero_btn_visit">Book a Visit</a>
+                            <a href="#" class="btn btn-outline-primary btn-lg" data-bs-toggle="modal" data-bs-target="#virtualTourModal" id="hero_btn_tour">Watch Virtual Tour</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-animation" data-aos="zoom-in" data-aos-duration="1000">
+                        <!-- Placeholder for 3D animation or video -->
+                        <div class="hero-image-container">
+                            <img src="images/hero-kids.png" alt="Happy children playing and learning" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shapes-container">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 id="why_choose_title">Why Choose Indo American Play School?</h2>
+                <p class="lead" id="why_choose_subtitle">We create a nurturing environment where learning is fun and every child's potential is unlocked</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3 id="feature_holistic">Holistic Development</h3>
+                        <p id="feature_holistic_desc">Focus on cognitive, emotional, physical, and social skills development.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                        <h3 id="feature_global">Global Curriculum</h3>
+                        <p id="feature_global_desc">American teaching methods combined with Indian cultural values and traditions.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <h3 id="feature_educators">Expert Educators</h3>
+                        <p id="feature_educators_desc">Qualified teachers trained in early childhood education methodologies.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 id="feature_safe">Safe Environment</h3>
+                        <p id="feature_safe_desc">CCTV monitored premises with child-friendly infrastructure and safety protocols.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Overview Section -->
+    <section class="programs-overview-section py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 id="programs_title">Our Programs</h2>
+                <p class="lead" id="programs_subtitle">Age-appropriate learning experiences for your little one</p>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mb-4" data-aos="flip-left" data-aos-delay="100">
+                    <div class="program-card">
+                        <div class="program-icon">
+                            <img src="images/playgroup.png" alt="Playgroup" class="img-fluid">
+                        </div>
+                        <h3 id="program_playgroup">Playgroup</h3>
+                        <p id="program_playgroup_age">Ages 2-3 years</p>
+                        <a href="programs.html#playgroup" class="btn btn-sm btn-outline-primary program_learn_more">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4" data-aos="flip-left" data-aos-delay="200">
+                    <div class="program-card">
+                        <div class="program-icon">
+                            <img src="images/nursery.png" alt="Nursery" class="img-fluid">
+                        </div>
+                        <h3 id="program_nursery">Nursery</h3>
+                        <p id="program_nursery_age">Ages 3-4 years</p>
+                        <a href="programs.html#nursery" class="btn btn-sm btn-outline-primary program_learn_more">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4" data-aos="flip-left" data-aos-delay="300">
+                    <div class="program-card">
+                        <div class="program-icon">
+                            <img src="images/lkg.png" alt="LKG" class="img-fluid">
+                        </div>
+                        <h3 id="program_lkg">LKG</h3>
+                        <p id="program_lkg_age">Ages 4-5 years</p>
+                        <a href="programs.html#lkg" class="btn btn-sm btn-outline-primary program_learn_more">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4" data-aos="flip-left" data-aos-delay="400">
+                    <div class="program-card">
+                        <div class="program-icon">
+                            <img src="images/ukg.png" alt="UKG" class="img-fluid">
+                        </div>
+                        <h3 id="program_ukg">UKG</h3>
+                        <p id="program_ukg_age">Ages 5-6 years</p>
+                        <a href="programs.html#ukg" class="btn btn-sm btn-outline-primary program_learn_more">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4" data-aos="fade-up">
+                <a href="programs.html" class="btn btn-primary" id="programs_explore_all">Explore All Programs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section class="facilities-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 id="facilities_title">Our Facilities</h2>
+                <p class="lead" id="facilities_subtitle">Creating the perfect environment for growth and exploration</p>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="facilities-carousel">
+                        <!-- This would be replaced with an actual carousel/slider -->
+                        <img src="images/facilities-overview.jpg" alt="School Facilities" class="img-fluid rounded">
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="facilities-list">
+                        <div class="facility-item d-flex align-items-start mb-4">
+                            <div class="facility-icon me-3">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                            <div>
+                                <h3 id="facility_smart">Smart Classrooms</h3>
+                                <p id="facility_smart_desc">Interactive digital boards and technology-enabled learning spaces.</p>
+                            </div>
+                        </div>
+                        <div class="facility-item d-flex align-items-start mb-4">
+                            <div class="facility-icon me-3">
+                                <i class="fas fa-tree"></i>
+                            </div>
+                            <div>
+                                <h3 id="facility_outdoor">Outdoor Play Zone</h3>
+                                <p id="facility_outdoor_desc">Safe, engaging playgrounds designed for exploration and physical activity.</p>
+                            </div>
+                        </div>
+                        <div class="facility-item d-flex align-items-start mb-4">
+                            <div class="facility-icon me-3">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <div>
+                                <h3 id="facility_art">Art & Music Studios</h3>
+                                <p id="facility_art_desc">Dedicated spaces for creativity, artistic expression, and musical development.</p>
+                            </div>
+                        </div>
+                        <div class="facility-item d-flex align-items-start">
+                            <div class="facility-icon me-3">
+                                <i class="fas fa-book-reader"></i>
+                            </div>
+                            <div>
+                                <h3 id="facility_library">Library & Reading Nook</h3>
+                                <p id="facility_library_desc">Age-appropriate books in a cozy environment to nurture love for reading.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <a href="facilities.html" class="btn btn-primary" id="facilities_view_all">View All Facilities</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-5 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 id="testimonials_title">Parents Love Us</h2>
+                <p class="lead" id="testimonials_subtitle">Hear what our community has to say about us</p>
+            </div>
+            <div class="row testimonials-carousel">
+                <!-- This would be replaced with an actual carousel/slider -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Indo American Play School has been phenomenal for my daughter. She has developed confidence, vocabulary, and social skills in just a few months!"</p>
+                        </div>
+                        <div class="testimonial-user d-flex align-items-center mt-3">
+                            <div class="testimonial-avatar me-3">
+                                <img src="images/parent1.jpg" alt="Parent" class="rounded-circle">
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Priya Sharma</h5>
+                                <small>Parent of Aadhya, LKG</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"The balance of fun and learning is perfect. My son loves going to school every day, and the progress he's made in both English and Hindi is impressive!"</p>
+                        </div>
+                        <div class="testimonial-user d-flex align-items-center mt-3">
+                            <div class="testimonial-avatar me-3">
+                                <img src="images/parent2.jpg" alt="Parent" class="rounded-circle">
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Rajesh & Smita Patel</h5>
+                                <small>Parents of Aryan, Nursery</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"The staff is incredibly caring and attentive. They truly understand each child's unique personality and adapt their approach accordingly."</p>
+                        </div>
+                        <div class="testimonial-user d-flex align-items-center mt-3">
+                            <div class="testimonial-avatar me-3">
+                                <img src="images/parent3.jpg" alt="Parent" class="rounded-circle">
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Aisha Khan</h5>
+                                <small>Parent of Zara, UKG</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5" data-aos="fade-up">
+                <h2 id="events_title">Upcoming Events</h2>
+                <p class="lead" id="events_subtitle">Join us for fun and learning</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="event-day">15</span>
+                            <span class="event-month">Jun</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Summer Camp Begins</h3>
+                            <p class="event-time"><i class="far fa-clock"></i> 9:00 AM - 12:00 PM</p>
+                            <p>Two weeks of fun activities, crafts, and outdoor adventures!</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Register</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="event-day">22</span>
+                            <span class="event-month">Jun</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Parent Orientation</h3>
+                            <p class="event-time"><i class="far fa-clock"></i> 11:00 AM - 1:00 PM</p>
+                            <p>Introduction to our curriculum and teaching methodologies.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">RSVP</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="event-day">30</span>
+                            <span class="event-month">Jun</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Science Fun Day</h3>
+                            <p class="event-time"><i class="far fa-clock"></i> 10:00 AM - 1:00 PM</p>
+                            <p>Exciting experiments and hands-on learning activities for kids.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4" data-aos="fade-up">
+                <a href="events.html" class="btn btn-primary" id="events_view_all">View All Events</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8" data-aos="fade-right">
+                    <h2 id="cta_title">Ready to Give Your Child the Indo American Advantage?</h2>
+                    <p class="lead mb-0" id="cta_subtitle">Schedule a visit or apply for admission today!</p>
+                </div>
+                <div class="col-lg-4 text-lg-end text-center mt-4 mt-lg-0" data-aos="fade-left">
+                    <a href="admissions.html" class="btn btn-primary btn-lg me-lg-2 mb-2 mb-lg-0">Apply Now</a>
+                    <a href="contact.html" class="btn btn-outline-primary btn-lg">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section pt-5 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <img src="images/logo-white.png" alt="Indo American Play School Logo" class="footer-logo mb-3" height="60">
+                        <p id="footer_about">Where East Meets West & Little Minds Take Flight!</p>
+                        <div class="social-links mt-3">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h4 id="footer_quick_links">Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="programs.html">Programs</a></li>
+                            <li><a href="facilities.html">Facilities</a></li>
+                            <li><a href="admissions.html">Admissions</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h4 id="footer_contact_us">Contact Us</h4>
+                        <div class="contact-info">
+                            <p><i class="fas fa-map-marker-alt"></i> <span id="footer_address">Teshil Colony , Pipariya, Madhya Pradesh, PIN - 461775 </span></p>
+                            <p><i class="fas fa-phone"></i> <span id="footer_phone">+91 8989049282</span></p>
+                            <p><i class="fas fa-envelope"></i> <span id="footer_email">indo.play.school@gmail.com</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h4 id="footer_hours">School Hours</h4>
+                        <div class="timing-info">
+                            <p id="footer_weekdays"><strong>Monday - Friday:</strong> 8:00 AM - 1:00 PM</p>
+                            <p id="footer_saturday"><strong>Saturday:</strong> 8:00 AM - 12:00 PM</p>
+                            <p id="footer_sunday"><strong>Sunday:</strong> Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0" id="footer_copyright">&copy; 2025 Indo American Play School. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0"><a href="#" id="footer_privacy">Privacy Policy</a> | <a href="#" id="footer_terms">Terms of Service</a></p>
+                </div>
+            </div>
+            <div class="developer-tag">
+                Developed with <span class="heart">&hearts;</span> by <a href="https://www.linkedin.com/in/umesh-patel-5647b42a4/" target="_blank">Umesh Patel</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Virtual Tour Modal -->
+    <div class="modal fade" id="virtualTourModal" tabindex="-1" aria-labelledby="virtualTourModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="virtualTourModalLabel">Virtual Tour</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="contact.html" class="btn btn-primary">Schedule a Visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chatbot -->
+    <div class="chatbot-container">
+        <div class="chatbot-toggle">
+            <i class="fas fa-comment-dots"></i>
+        </div>
+        <div class="chatbot-popup">
+            <div class="chatbot-header">
+                <img src="images/mascot.png" alt="School Mascot" class="chatbot-mascot">
+                <span id="chat_with">Chat with Buddy!</span>
+                <button class="chatbot-close">&times;</button>
+            </div>
+            <div class="chatbot-messages">
+                <div class="message bot-message">
+                    <p id="chat_greeting">Hi there! I'm Buddy, your friendly guide to Indo American Play School. How can I help you today?</p>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chat_placeholder" placeholder="Type your question...">
+                <button><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

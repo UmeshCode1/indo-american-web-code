@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Zone - Indo American Play School</title>
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Access resources, newsletters, academic calendars, and communication tools designed for parents of Indo American Play School students.">
+    <meta name="keywords" content="parent portal, school resources, parent communication, school calendar, parent-teacher, learning at home">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts - Bubbly, kid-friendly fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Indo American Play School " height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="programs.html">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="facilities.html">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admissions.html">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="parent-zone.html">Parent Zone</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="ms-auto d-flex align-items-center">
+                    <div class="dropdown me-3">
+                        <button class="btn btn-outline-primary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-globe"></i> EN
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item active" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">हिन्दी</a></li>
+                        </ul>
+                    </div>
+                    <a href="admissions.html" class="btn btn-primary">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header parent-zone-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7" data-aos="fade-right" data-aos-duration="1000">
+                    <h1>Parent Zone</h1>
+                    <p class="lead">A dedicated space for parents to access resources, stay informed, and collaborate in their child's educational journey.</p>
+                </div>
+                <div class="col-lg-5" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="header-decoration">
+                        <img src="images/parent-child.png" alt="Parent and child learning together" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Login Section -->
+    <section class="parent-login section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <div class="login-info">
+                        <div class="section-title mb-4">
+                            <h2>Parent Portal Login</h2>
+                            <p>Access your child's detailed progress reports, attendance records, and direct communication with teachers.</p>
+                        </div>
+                        <div class="login-benefits">
+                            <h4>Features of Parent Portal:</h4>
+                            <ul class="feature-list">
+                                <li><i class="fas fa-check-circle"></i> Real-time access to your child's academic progress</li>
+                                <li><i class="fas fa-check-circle"></i> View attendance records and upcoming events</li>
+                                <li><i class="fas fa-check-circle"></i> Direct messaging with teachers and administration</li>
+                                <li><i class="fas fa-check-circle"></i> Download report cards and assessments</li>
+                                <li><i class="fas fa-check-circle"></i> Update contact information and preferences</li>
+                                <li><i class="fas fa-check-circle"></i> Fee payment and receipt downloads</li>
+                            </ul>
+                            <div class="mt-4">
+                                <a href="#" class="btn btn-outline-primary me-3">Learn More</a>
+                                <a href="#" class="btn btn-link">Forgot Password?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="login-form-container">
+                        <form id="parentLoginForm" class="login-form">
+                            <div class="mb-4">
+                                <label for="parentEmail" class="form-label">Parent Email</label>
+                                <input type="email" class="form-control" id="parentEmail" placeholder="Enter your registered email">
+                            </div>
+                            <div class="mb-4">
+                                <label for="parentPassword" class="form-label">Password</label>
+                                <div class="input-group">
+                                    <input type="password" class="form-control" id="parentPassword" placeholder="Enter your password">
+                                    <button class="btn btn-outline-secondary" type="button" id="showPassword">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" id="rememberCheck">
+                                <label class="form-check-label" for="rememberCheck">
+                                    Remember me on this device
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 btn-lg">Login to Parent Portal</button>
+                            <div class="text-center mt-3">
+                                <p>New parent? <a href="#">Request account activation</a></p>
+                            </div>
+                        </form>
+                        <div class="login-app-links mt-4">
+                            <p class="text-center">Download our Parent App:</p>
+                            <div class="d-flex justify-content-center">
+                                <a href="#" class="me-3"><img src="images/app-store.png" alt="App Store" height="40"></a>
+                                <a href="#"><img src="images/google-play.png" alt="Google Play" height="40"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="parent-resources section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <h2>Parent Resources</h2>
+                <p>Tools and resources to support your child's learning journey</p>
+            </div>
+            
+            <!-- Attendance Tracking System NEW SECTION -->
+            <div class="row mb-5">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="attendance-system-card">
+                        <div class="attendance-header d-flex justify-content-between align-items-center">
+                            <div>
+                                <h3><i class="fas fa-calendar-check"></i> Attendance Tracking</h3>
+                                <p class="mb-0">Mark and view student attendance records</p>
+                            </div>
+                            <button class="btn btn-primary" id="toggleAttendanceSystem">
+                                <i class="fas fa-chevron-down" id="attendanceToggleIcon"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="attendance-system-content mt-4" id="attendanceSystemContent" style="display: none;">
+                            <ul class="nav nav-tabs" id="attendanceTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="view-attendance-tab" data-bs-toggle="tab" 
+                                            data-bs-target="#view-attendance" type="button" role="tab" 
+                                            aria-controls="view-attendance" aria-selected="true">
+                                        View Attendance
+                                    </button>
+                                </li>
+                                <li class="nav-item teacher-only" role="presentation" id="markAttendanceTab">
+                                    <button class="nav-link" id="mark-attendance-tab" data-bs-toggle="tab" 
+                                            data-bs-target="#mark-attendance" type="button" role="tab" 
+                                            aria-controls="mark-attendance" aria-selected="false">
+                                        Mark Attendance
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="attendance-report-tab" data-bs-toggle="tab" 
+                                            data-bs-target="#attendance-report" type="button" role="tab" 
+                                            aria-controls="attendance-report" aria-selected="false">
+                                        Attendance Report
+                                    </button>
+                                </li>
+                            </ul>
+                            
+                            <div class="tab-content p-3 border border-top-0 rounded-bottom" id="attendanceTabContent">
+                                <!-- View Attendance Tab (For Parents) -->
+                                <div class="tab-pane fade show active" id="view-attendance" role="tabpanel" aria-labelledby="view-attendance-tab">
+                                    <div class="row mb-3">
+                                        <div class="col-md-6">
+                                            <div class="input-group">
+                                                <span class="input-group-text"><i class="fas fa-child"></i></span>
+                                                <select class="form-select" id="studentSelector">
+                                                    <option selected>Select Student</option>
+                                                    <option>Aanya Sharma</option>
+                                                    <option>Virat Patel</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="input-group">
+                                                <span class="input-group-text"><i class="fas fa-calendar"></i></span>
+                                                <input type="month" class="form-control" id="attendanceMonth">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="attendance-calendar mt-4">
+                                        <div class="calendar-container">
+                                            <table class="table table-bordered attendance-table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Mon</th>
+                                                        <th>Tue</th>
+                                                        <th>Wed</th>
+                                                        <th>Thu</th>
+                                                        <th>Fri</th>
+                                                        <th>Sat</th>
+                                                        <th>Sun</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody id="attendanceCalendarBody">
+                                                    <!-- Calendar will be dynamically generated -->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        
+                                        <div class="attendance-summary mt-3">
+                                            <div class="row">
+                                                <div class="col-md-3 col-6 mb-3">
+                                                    <div class="attendance-stat present">
+                                                        <h4>18</h4>
+                                                        <p>Present</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-6 mb-3">
+                                                    <div class="attendance-stat absent">
+                                                        <h4>2</h4>
+                                                        <p>Absent</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-6 mb-3">
+                                                    <div class="attendance-stat late">
+                                                        <h4>1</h4>
+                                                        <p>Late</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-6 mb-3">
+                                                    <div class="attendance-stat attendance-rate">
+                                                        <h4>90%</h4>
+                                                        <p>Attendance Rate</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Mark Attendance Tab (For Teachers) -->
+                                <div class="tab-pane fade" id="mark-attendance" role="tabpanel" aria-labelledby="mark-attendance-tab">
+                                    <div class="row mb-3">
+                                        <div class="col-md-4">
+                                            <div class="input-group">
+                                                <span class="input-group-text"><i class="fas fa-chalkboard"></i></span>
+                                                <select class="form-select" id="classSelector">
+                                                    <option selected>Select Class</option>
+                                                    <option>Playgroup - A</option>
+                                                    <option>Nursery - B</option>
+                                                    <option>LKG - A</option>
+                                                    <option>UKG - C</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="input-group">
+                                                <span class="input-group-text"><i class="fas fa-calendar-day"></i></span>
+                                                <input type="date" class="form-control" id="attendanceDate">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <button class="btn btn-primary w-100" id="loadClassBtn">
+                                                <i class="fas fa-sync-alt"></i> Load Class
+                                            </button>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="mark-attendance-container mt-4">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Roll No.</th>
+                                                        <th>Student Name</th>
+                                                        <th>Status</th>
+                                                        <th>Remarks</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody id="studentAttendanceList">
+                                                    <!-- Sample data - will be dynamically generated -->
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>Aanya Sharma</td>
+                                                        <td>
+                                                            <div class="btn-group" role="group">
+                                                                <input type="radio" class="btn-check" name="attendance-1" id="present-1" value="present" checked>
+                                                                <label class="btn btn-outline-success btn-sm" for="present-1">Present</label>
+                                                                
+                                                                <input type="radio" class="btn-check" name="attendance-1" id="absent-1" value="absent">
+                                                                <label class="btn btn-outline-danger btn-sm" for="absent-1">Absent</label>
+                                                                
+                                                                <input type="radio" class="btn-check" name="attendance-1" id="late-1" value="late">
+                                                                <label class="btn btn-outline-warning btn-sm" for="late-1">Late</label>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <input type="text" class="form-control form-control-sm" placeholder="Add remarks">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>Virat Patel</td>
+                                                        <td>
+                                                            <div class="btn-group" role="group">
+                                                                <input type="radio" class="btn-check" name="attendance-2" id="present-2" value="present" checked>
+                                                                <label class="btn btn-outline-success btn-sm" for="present-2">Present</label>
+                                                                
+                                                                <input type="radio" class="btn-check" name="attendance-2" id="absent-2" value="absent">
+                                                                <label class="btn btn-outline-danger btn-sm" for="absent-2">Absent</label>
+                                                                
+                                                                <input type="radio" class="btn-check" name="attendance-2" id="late-2" value="late">
+                                                                <label class="btn btn-outline-warning btn-sm" for="late-2">Late</label>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <input type="text" class="form-control form-control-sm" placeholder="Add remarks">
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        
+                                        <div class="d-flex justify-content-end mt-3">
+                                            <button class="btn btn-success" id="saveAttendanceBtn">
+                                                <i class="fas fa-save"></i> Save Attendance
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Attendance Reports Tab -->
+                                <div class="tab-pane fade" id="attendance-report" role="tabpanel" aria-labelledby="attendance-report-tab">
+                                    <div class="row mb-3">
+                                        <div class="col-md-6">
+                                            <div class="input-group">
+                                                <span class="input-group-text"><i class="fas fa-child"></i></span>
+                                                <select class="form-select" id="reportStudentSelector">
+                                                    <option selected>Select Student</option>
+                                                    <option>Aanya Sharma</option>
+                                                    <option>Virat Patel</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="input-group">
+                                                <span class="input-group-text"><i class="fas fa-calendar"></i></span>
+                                                <select class="form-select" id="reportPeriodSelector">
+                                                    <option selected>Select Period</option>
+                                                    <option>Current Month</option>
+                                                    <option>Last Month</option>
+                                                    <option>Current Term</option>
+                                                    <option>Annual</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="report-container mt-4">
+                                        <div class="attendance-chart mb-4">
+                                            <canvas id="attendanceChart"></canvas>
+                                        </div>
+                                        
+                                        <div class="attendance-trends">
+                                            <h5>Attendance Trends</h5>
+                                            <div class="table-responsive">
+                                                <table class="table table-bordered table-sm">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Month</th>
+                                                            <th>Present</th>
+                                                            <th>Absent</th>
+                                                            <th>Late</th>
+                                                            <th>Attendance Rate</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>January</td>
+                                                            <td>18</td>
+                                                            <td>2</td>
+                                                            <td>1</td>
+                                                            <td>90%</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>February</td>
+                                                            <td>19</td>
+                                                            <td>0</td>
+                                                            <td>2</td>
+                                                            <td>95%</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>March</td>
+                                                            <td>20</td>
+                                                            <td>1</td>
+                                                            <td>0</td>
+                                                            <td>95%</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="text-end mt-3">
+                                            <button class="btn btn-outline-primary">
+                                                <i class="fas fa-download"></i> Download Report
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Attendance Tracking System -->
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="resource-card">
+                        <div class="resource-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3>Academic Calendar</h3>
+                        <p>Stay informed about holidays, events, assessments, and important school dates for the academic year 2025-26.</p>
+                        <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#calendarModal">View Calendar</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="resource-card">
+                        <div class="resource-icon">
+                            <i class="fas fa-book-reader"></i>
+                        </div>
+                        <h3>Learning at Home</h3>
+                        <p>Access activities, worksheets, and educational games designed to reinforce classroom learning at home.</p>
+                        <a href="#" class="btn btn-outline-primary">Explore Resources</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="resource-card">
+                        <div class="resource-icon">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <h3>School Newsletter</h3>
+                        <p>Read our monthly newsletters featuring school updates, upcoming events, and educational insights.</p>
+                        <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#newsletterModal">Latest Newsletter</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="resource-card">
+                        <div class="resource-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3>Meal Planner</h3>
+                        <p>View weekly meal plans, nutritional information, and download recipes of school meals for home preparation.</p>
+                        <a href="#" class="btn btn-outline-primary">View Meal Plans</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="resource-card">
+                        <div class="resource-icon">
+                            <i class="fas fa-hand-holding-heart"></i>
+                        </div>
+                        <h3>Parenting Tips</h3>
+                        <p>Expert advice on child development, effective parenting strategies, and supporting early education.</p>
+                        <a href="#" class="btn btn-outline-primary">Read Articles</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="resource-card">
+                        <div class="resource-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <h3>Forms & Documents</h3>
+                        <p>Download important school forms, policies, and procedural documents for your reference.</p>
+                        <a href="#" class="btn btn-outline-primary">Access Documents</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Upcoming Events Section -->
+    <section class="upcoming-events section-padding">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <h2>Upcoming Events</h2>
+                <p>Stay informed about school activities and parent engagement opportunities</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="events-timeline" data-aos="fade-up">
+                        <div class="event-item">
+                            <div class="event-date">
+                                <div class="date-box">
+                                    <span class="month">Jun</span>
+                                    <span class="day">12</span>
+                                </div>
+                            </div>
+                            <div class="event-content">
+                                <h4>Parent-Teacher Conference</h4>
+                                <p class="event-info">
+                                    <span><i class="far fa-clock"></i> 9:00 AM - 3:00 PM</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> School Premises</span>
+                                </p>
+                                <p>Individual sessions with teachers to discuss your child's progress, achievements, and areas for growth.</p>
+                                <div class="event-actions">
+                                    <a href="#" class="btn btn-sm btn-outline-primary">Book Time Slot</a>
+                                    <a href="#" class="btn btn-sm btn-link">Add to Calendar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-item">
+                            <div class="event-date">
+                                <div class="date-box">
+                                    <span class="month">Jun</span>
+                                    <span class="day">18</span>
+                                </div>
+                            </div>
+                            <div class="event-content">
+                                <h4>Summer Camp Orientation</h4>
+                                <p class="event-info">
+                                    <span><i class="far fa-clock"></i> 11:00 AM - 12:30 PM</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> School Auditorium</span>
+                                </p>
+                                <p>Learn about our summer camp activities, schedule, and preparation guidelines for parents and children.</p>
+                                <div class="event-actions">
+                                    <a href="#" class="btn btn-sm btn-outline-primary">Register</a>
+                                    <a href="#" class="btn btn-sm btn-link">Add to Calendar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-item">
+                            <div class="event-date">
+                                <div class="date-box">
+                                    <span class="month">Jun</span>
+                                    <span class="day">25</span>
+                                </div>
+                            </div>
+                            <div class="event-content">
+                                <h4>Parent Workshop: Early Literacy</h4>
+                                <p class="event-info">
+                                    <span><i class="far fa-clock"></i> 5:30 PM - 7:00 PM</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> School Library</span>
+                                </p>
+                                <p>Join our expert educators to learn effective strategies for developing early reading and writing skills at home.</p>
+                                <div class="event-actions">
+                                    <a href="#" class="btn btn-sm btn-outline-primary">Register</a>
+                                    <a href="#" class="btn btn-sm btn-link">Add to Calendar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-item">
+                            <div class="event-date">
+                                <div class="date-box">
+                                    <span class="month">Jul</span>
+                                    <span class="day">05</span>
+                                </div>
+                            </div>
+                            <div class="event-content">
+                                <h4>Family Picnic Day</h4>
+                                <p class="event-info">
+                                    <span><i class="far fa-clock"></i> 10:00 AM - 2:00 PM</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> City Botanical Garden</span>
+                                </p>
+                                <p>A fun-filled day of games, activities, and bonding for families and staff of Indo American Play School.</p>
+                                <div class="event-actions">
+                                    <a href="#" class="btn btn-sm btn-outline-primary">RSVP</a>
+                                    <a href="#" class="btn btn-sm btn-link">Add to Calendar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="text-center mt-4">
+                        <a href="#" class="btn btn-primary">View Full Calendar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parent Involvement Section -->
+    <section class="parent-involvement section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <h2>Parent Involvement</h2>
+                <p>Ways to actively participate in your child's educational journey</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="involvement-card">
+                        <div class="involvement-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="involvement-content">
+                            <h3>Parent-Teacher Association (PTA)</h3>
+                            <p>Join our active PTA to collaborate with teachers and staff in enhancing the school experience. Attend monthly meetings, volunteer for events, and contribute to school development initiatives.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Join PTA</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="involvement-card">
+                        <div class="involvement-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <div class="involvement-content">
+                            <h3>Volunteer Opportunities</h3>
+                            <p>Contribute your time and skills as a classroom helper, event coordinator, library assistant, or field trip chaperone. Share your professional expertise through our "Parent as Teacher" initiative.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Volunteer Sign-up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="involvement-card">
+                        <div class="involvement-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="involvement-content">
+                            <h3>Parent Workshops</h3>
+                            <p>Attend educational workshops designed specifically for parents to learn effective strategies for supporting child development, handling behavioral challenges, and reinforcing learning at home.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Workshop Schedule</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="involvement-card">
+                        <div class="involvement-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="involvement-content">
+                            <h3>Feedback & Suggestions</h3>
+                            <p>We value your input! Share your feedback, ideas, and suggestions to help us continuously improve our programs and services. Participate in our quarterly parent surveys and focus group discussions.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Submit Feedback</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section section-padding">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common parent queries</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="accordion faq-accordion" id="parentFAQ">
+                        <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    How can I track my child's daily activities?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#parentFAQ">
+                                <div class="accordion-body">
+                                    We provide daily updates through our Parent Portal and mobile app. Teachers upload photos, activity summaries, and learning observations for each child. You'll receive notifications when new updates are posted. For Playgroup and Nursery students, we also maintain a physical communication diary that comes home daily.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    What should I do if my child is sick or will be absent?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#parentFAQ">
+                                <div class="accordion-body">
+                                    Please inform the school office before 8:30 AM by calling our absence reporting line at +91 98765-43211 or marking attendance in the Parent Portal. For illnesses lasting more than two days, please provide a doctor's note upon return. If your child has a contagious condition, please inform us immediately so we can take necessary precautions.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    How do I schedule a meeting with my child's teacher?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#parentFAQ">
+                                <div class="accordion-body">
+                                    You can schedule meetings with teachers through the Parent Portal by selecting "Request Meeting" under the "Communication" tab. Alternatively, you can email the teacher directly or call the school office. Teachers are available for brief conversations during drop-off and pick-up times, but we recommend scheduling a proper meeting for in-depth discussions.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    What items should my child bring to school daily?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#parentFAQ">
+                                <div class="accordion-body">
+                                    Your child should bring:
+                                    <ul>
+                                        <li>School bag with communication diary</li>
+                                        <li>Water bottle (labeled with name)</li>
+                                        <li>Change of clothes in a sealed bag</li>
+                                        <li>Lunch box if not opting for school meals</li>
+                                        <li>Any prescribed medication (to be handed directly to the teacher)</li>
+                                    </ul>
+                                    Please ensure all items are clearly labeled with your child's name.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-delay="500">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    How can I support my child's learning at home?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#parentFAQ">
+                                <div class="accordion-body">
+                                    We encourage parents to reinforce learning at home by:
+                                    <ul>
+                                        <li>Reading with your child daily for at least 15 minutes</li>
+                                        <li>Engaging in conversations about their school day</li>
+                                        <li>Using the at-home activities provided in our weekly newsletter</li>
+                                        <li>Creating a consistent routine for homework and play</li>
+                                        <li>Attending parent workshops to learn specific supporting strategies</li>
+                                    </ul>
+                                    Our "Learning at Home" section in the Parent Zone provides additional resources and activities aligned with our curriculum.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription -->
+    <section class="newsletter-section section-padding bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-4 mb-lg-0" data-aos="fade-right">
+                    <h2 class="mb-3">Subscribe to Our Parent Newsletter</h2>
+                    <p class="lead mb-0">Stay updated with school events, educational tips, and important announcements delivered directly to your inbox.</p>
+                </div>
+                <div class="col-lg-5" data-aos="fade-left">
+                    <form id="newsletterForm" class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email address" aria-label="Email address" required>
+                            <button class="btn btn-light" type="submit">Subscribe</button>
+                        </div>
+                        <div class="form-check mt-2">
+                            <input class="form-check-input" type="checkbox" id="newsletterConsent" required>
+                            <label class="form-check-label" for="newsletterConsent">
+                                I agree to receive newsletters and updates from Indo American Play School
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calendar Modal -->
+    <div class="modal fade" id="calendarModal" tabindex="-1" aria-labelledby="calendarModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="calendarModalLabel">Academic Calendar 2025-26</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="calendar-container">
+                        <div class="calendar-controls mb-3">
+                            <select class="form-select calendar-month-select">
+                                <option value="6">June 2025</option>
+                                <option value="7">July 2025</option>
+                                <option value="8">August 2025</option>
+                                <option value="9">September 2025</option>
+                                <option value="10">October 2025</option>
+                                <option value="11">November 2025</option>
+                                <option value="12">December 2025</option>
+                                <option value="1">January 2026</option>
+                                <option value="2">February 2026</option>
+                                <option value="3">March 2026</option>
+                                <option value="4">April 2026</option>
+                                <option value="5">May 2026</option>
+                            </select>
+                        </div>
+                        <div class="calendar-legend mb-3">
+                            <span class="calendar-legend-item"><i class="fas fa-circle text-success"></i> School Days</span>
+                            <span class="calendar-legend-item"><i class="fas fa-circle text-danger"></i> Holidays</span>
+                            <span class="calendar-legend-item"><i class="fas fa-circle text-warning"></i> Events</span>
+                            <span class="calendar-legend-item"><i class="fas fa-circle text-info"></i> Assessment Days</span>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-bordered calendar-table">
+                                <thead>
+                                    <tr>
+                                        <th>Sun</th>
+                                        <th>Mon</th>
+                                        <th>Tue</th>
+                                        <th>Wed</th>
+                                        <th>Thu</th>
+                                        <th>Fri</th>
+                                        <th>Sat</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Calendar content would be dynamically generated -->
+                                    <tr>
+                                        <td class="calendar-day holiday">1</td>
+                                        <td class="calendar-day">2</td>
+                                        <td class="calendar-day">3</td>
+                                        <td class="calendar-day">4</td>
+                                        <td class="calendar-day event" data-event="School Reopens">5</td>
+                                        <td class="calendar-day">6</td>
+                                        <td class="calendar-day weekend">7</td>
+                                    </tr>
+                                    <!-- More rows would be here -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="calendar-download mt-3">
+                            <a href="#" class="btn btn-outline-primary"><i class="fas fa-download"></i> Download Full Calendar (PDF)</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter Modal -->
+    <div class="modal fade" id="newsletterModal" tabindex="-1" aria-labelledby="newsletterModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="newsletterModalLabel">May 2025 Newsletter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="newsletter-preview">
+                        <iframe src="about:blank" width="100%" height="600px" frameborder="0" style="border: none;"></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-primary"><i class="fas fa-download"></i> Download PDF</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <div class="footer-logo">
+                            <img src="images/logo-white.png" alt="Indo American Play School Logo" class="img-fluid">
+                        </div>
+                        <p class="mt-3">Where East meets West and little minds take flight in a nurturing environment of fun-filled learning and growth.</p>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="programs.html">Programs</a></li>
+                            <li><a href="facilities.html">Facilities</a></li>
+                            <li><a href="admissions.html">Admissions</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <h4>Programs</h4>
+                        <ul class="footer-links">
+                            <li><a href="programs.html#playgroup">Playgroup (2-2.5 years)</a></li>
+                            <li><a href="programs.html#nursery">Nursery (2.5-3.5 years)</a></li>
+                            <li><a href="programs.html#lkg">LKG (3.5-4.5 years)</a></li>
+                            <li><a href="programs.html#ukg">UKG (4.5-5.5 years)</a></li>
+                            <li><a href="programs.html#enrichment">Enrichment Programs</a></li>
+                            <li><a href="programs.html#summer-camp">Summer Camp</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4>Contact Us</h4>
+                        <ul class="footer-contact">
+                            <li><i class="fas fa-map-marker-alt"></i> 123 Education Lane, Knowledge Park, New Delhi - 110001</li>
+                            <li><i class="fas fa-phone-alt"></i> +91 98765 43210</li>
+                            <li><i class="fas fa-envelope"></i> admissions@indoamericanschool.com</li>
+                            <li><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 4:00 PM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="mb-md-0">© 2025 Indo American Play School. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <ul class="footer-bottom-links">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="developer-tag">
+                    Developed with <span class="heart">&hearts;</span> by <a href="https://www.linkedin.com/in/umesh-patel-5647b42a4/" target="_blank">Umesh Patel</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    
+    <!-- Parent Zone Specific JS -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Password visibility toggle
+            const passwordInput = document.getElementById('parentPassword');
+            const showPasswordBtn = document.getElementById('showPassword');
+            
+            if (showPasswordBtn) {
+                showPasswordBtn.addEventListener('click', function() {
+                    const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+                    passwordInput.setAttribute('type', type);
+                    this.querySelector('i').classList.toggle('fa-eye');
+                    this.querySelector('i').classList.toggle('fa-eye-slash');
+                });
+            }
+            
+            // Form submission - prevent actual submission in this demo
+            const loginForm = document.getElementById('parentLoginForm');
+            if (loginForm) {
+                loginForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    alert('In a live website, this would authenticate and redirect to the parent dashboard.');
+                });
+            }
+            
+            // Newsletter form
+            const newsletterForm = document.getElementById('newsletterForm');
+            if (newsletterForm) {
+                newsletterForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    alert('Thank you for subscribing to our newsletter!');
+                    this.reset();
+                });
+            }
+            
+            // Attendance Tracking System
+            const toggleAttendanceSystem = document.getElementById('toggleAttendanceSystem');
+            const attendanceSystemContent = document.getElementById('attendanceSystemContent');
+            const attendanceToggleIcon = document.getElementById('attendanceToggleIcon');
+            
+            if (toggleAttendanceSystem) {
+                toggleAttendanceSystem.addEventListener('click', function() {
+                    const isVisible = attendanceSystemContent.style.display === 'block';
+                    attendanceSystemContent.style.display = isVisible ? 'none' : 'block';
+                    attendanceToggleIcon.classList.toggle('fa-chevron-up', !isVisible);
+                    attendanceToggleIcon.classList.toggle('fa-chevron-down', isVisible);
+                });
+            }
+        });
+    </script>
+</body>
+</html>

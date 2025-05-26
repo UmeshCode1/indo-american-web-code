@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Indo American Play School</title>
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Explore our gallery of moments at Indo American Play School capturing joyful learning experiences, events, celebrations, and activities that make childhood special.">
+    <meta name="keywords" content="play school gallery, kindergarten photos, preschool events, kids activities, school celebrations, classroom photos">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts - Bubbly, kid-friendly fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Lightbox CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Indo American Play School " height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="programs.html">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="facilities.html">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admissions.html">Admissions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="parent-zone.html">Parent Zone</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="ms-auto d-flex align-items-center">
+                    <div class="dropdown me-3">
+                        <button class="btn btn-outline-primary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-globe"></i> EN
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item active" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">हिन्दी</a></li>
+                        </ul>
+                    </div>
+                    <a href="admissions.html" class="btn btn-primary">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header gallery-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7" data-aos="fade-right" data-aos-duration="1000">
+                    <h1>Moments of Joy & Discovery</h1>
+                    <p class="lead">Explore our collection of precious memories capturing the essence of childhood learning and fun at Indo American Play School.</p>
+                </div>
+                <div class="col-lg-5" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="floating-images">
+                        <img src="images/gallery-header-1.png" alt="Children painting" class="floating-image img-1">
+                        <img src="images/gallery-header-2.png" alt="Children playing outdoors" class="floating-image img-2">
+                        <img src="images/gallery-header-3.png" alt="Children learning in classroom" class="floating-image img-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Gallery Filter Section -->
+    <section class="gallery-filter section-padding">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <h2>Our Photo Gallery</h2>
+                <p>Explore the vibrant life at Indo American Play School through our curated collections</p>
+            </div>
+            
+            <div class="filter-buttons mb-4" data-aos="fade-up">
+                <button class="btn btn-outline-primary filter-btn active" data-filter="all">All</button>
+                <button class="btn btn-outline-primary filter-btn" data-filter="classroom">Classroom Activities</button>
+                <button class="btn btn-outline-primary filter-btn" data-filter="events">Events & Celebrations</button>
+                <button class="btn btn-outline-primary filter-btn" data-filter="outdoor">Outdoor Play</button>
+                <button class="btn btn-outline-primary filter-btn" data-filter="art">Art & Creativity</button>
+                <button class="btn btn-outline-primary filter-btn" data-filter="trips">Field Trips</button>
+            </div>
+            
+            <div class="row g-4 gallery-container" data-aos="fade-up">
+                <!-- Classroom Activities Images -->
+                <div class="col-lg-4 col-md-6 gallery-item classroom">
+                    <a href="images/gallery/classroom-1.jpg" data-lightbox="gallery" data-title="Interactive Learning Session">
+                        <div class="gallery-card">
+                            <div class="gallery-image">
+                                <img src="images/gallery/classroom-1.jpg" alt="Interactive Learning Session" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-search-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-caption">
+                                <h5>Interactive Learning Session</h5>
+                                <p>Children engaged in an interactive story session</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-item classroom">
+                    <a href="images/gallery/classroom-2.jpg" data-lightbox="gallery" data-title="STEM Activities">
+                        <div class="gallery-card">
+                            <div class="gallery-image">
+                                <img src="images/gallery/classroom-2.jpg" alt="STEM Activities" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-search-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-caption">
+                                <h5>STEM Activities</h5>
+                                <p>Building and learning with educational blocks</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-item classroom">
+                    <a href="images/gallery/classroom-3.jpg" data-lightbox="gallery" data-title="Language Learning">
+                        <div class="gallery-card">
+                            <div class="gallery-image">
+                                <img src="images/gallery/classroom-3.jpg" alt="Language Learning" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-search-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-caption">
+                                <h5>Language Learning</h5>
+                                <p>Bilingual story time with our educators</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Events & Celebrations Images -->
+                <div class="col-lg-4 col-md-6 gallery-item events">
+                    <a href="images/gallery/event-1.jpg" data-lightbox="gallery" data-title="Annual Day Celebration">
+                        <div class="gallery-card">
+                            <div class="gallery-image">
+                                <img src="images/gallery/event-1.jpg" alt="Annual Day Celebration" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-search-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-caption">
+                                <h5>Annual Day Celebration</h5>
+                                <p>Children performing cultural dance</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-item events">
+                    <a href="images/gallery/event-2.jpg" data-lightbox="gallery" data-title="Diwali Celebrations">
+                        <div class="gallery-card">
+                            <div class="gallery-image">
+                                <img src="images/gallery/event-2.jpg" alt="Diwali Celebrations" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-search-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-caption">
+                                <h5>Diwali Celebrations</h5>
+                                <p>Festival of lights celebration at school</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-item events">
+                    <a href="images/gallery/event-3.jpg" data-lightbox="gallery" data-title="Halloween Fun">
+                        <div class="gallery-card">
+                            <div class="gallery-image">
+                                <img src="images/gallery/event-3.jpg" alt="Halloween Fun" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-search-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-caption">
+                                <h5>Halloween Fun</h5>
+                                <p>Costume day with exciting activities</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Outdoor Play Images -->
+                <div class="col-lg-4 col-md-6 gallery-item outdoor">
+                    <a href="images/gallery/outdoor-1.jpg" data-lightbox="gallery" data-title="Playground Adventures">
+                        <div class="gallery-card">
+                            <div class="gallery-image">
+                                <img src="images/gallery/outdoor-1.jpg" alt="Playground Adventures" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-search-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-caption">
+                                <h5>Playground Adventures</h5>
+                                <p>Children enjoying our safe play equipment</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-item outdoor">
+                    <a href="images/gallery/outdoor-2.jpg" data-lightbox="gallery" data-title="Nature Exploration">
+                        <div class="gallery-card">
+                            <div class="gallery-image">
+                                <img src="images/gallery/outdoor-2.jpg" alt="Nature Exploration" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-search-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-caption">
+                                <h5>Nature Exploration</h5>
+                                <p>Learning about plants in our garden</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-item outdoor">
+                    <a href="images/gallery/outdoor-3.jpg" data-lightbox="gallery" data-title="Water Play Day">
+                        <div class="gallery-card">
+                            <div class="gallery-image">
+                                <img src="images/gallery/outdoor-3.jpg" alt="Water Play Day" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-search-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-caption">
+                                <h5>Water Play Day</h5>
+                                <p>Summer fun with water activities</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Art & Creativity Images -->
+                <div class="col-lg-4 col-md-6 gallery-item art">
+                    <a href="images/gallery/art-1.jpg" data-lightbox="gallery" data-title="Finger Painting">
+                        <div class="gallery-card">
+                            <div class="gallery-image">
+                                <img src="images/gallery/art-1.jpg" alt="Finger Painting" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-search-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-caption">
+                                <h5>Finger Painting</h5>
+                                <p>Creative expression through colors</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-item art">
+                    <a href="images/gallery/art-2.jpg" data-lightbox="gallery" data-title="Clay Modeling">
+                        <div class="gallery-card">
+                            <div class="gallery-image">
+                                <img src="images/gallery/art-2.jpg" alt="Clay Modeling" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-search-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-caption">
+                                <h5>Clay Modeling</h5>
+                                <p>Developing fine motor skills with clay</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-item art">
+                    <a href="images/gallery/art-3.jpg" data-lightbox="gallery" data-title="Music & Dance">
+                        <div class="gallery-card">
+                            <div class="gallery-image">
+                                <img src="images/gallery/art-3.jpg" alt="Music & Dance" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-search-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-caption">
+                                <h5>Music & Dance</h5>
+                                <p>Rhythmic expression in music class</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Field Trips Images -->
+                <div class="col-lg-4 col-md-6 gallery-item trips">
+                    <a href="images/gallery/trip-1.jpg" data-lightbox="gallery" data-title="Farm Visit">
+                        <div class="gallery-card">
+                            <div class="gallery-image">
+                                <img src="images/gallery/trip-1.jpg" alt="Farm Visit" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-search-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-caption">
+                                <h5>Farm Visit</h5>
+                                <p>Learning about animals and agriculture</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-item trips">
+                    <a href="images/gallery/trip-2.jpg" data-lightbox="gallery" data-title="Science Museum">
+                        <div class="gallery-card">
+                            <div class="gallery-image">
+                                <img src="images/gallery/trip-2.jpg" alt="Science Museum" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-search-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-caption">
+                                <h5>Science Museum</h5>
+                                <p>Interactive exhibits at children's science museum</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-item trips">
+                    <a href="images/gallery/trip-3.jpg" data-lightbox="gallery" data-title="Butterfly Park">
+                        <div class="gallery-card">
+                            <div class="gallery-image">
+                                <img src="images/gallery/trip-3.jpg" alt="Butterfly Park" class="img-fluid">
+                                <div class="gallery-overlay">
+                                    <div class="gallery-icon">
+                                        <i class="fas fa-search-plus"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gallery-caption">
+                                <h5>Butterfly Park</h5>
+                                <p>Discovering nature's beauty up close</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5" data-aos="fade-up">
+                <button class="btn btn-lg btn-primary" id="loadMoreBtn">Load More Photos</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Gallery Section -->
+    <section class="video-gallery section-padding bg-light">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <h2>Video Highlights</h2>
+                <p>Watch our special moments in action</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <img src="images/gallery/video-thumb-1.jpg" alt="Annual Day Performance" class="img-fluid">
+                            <a href="#" class="video-play-btn" data-bs-toggle="modal" data-bs-target="#videoModal1">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                        <div class="video-caption">
+                            <h5>Annual Day Performance</h5>
+                            <p>Cultural dance performances by our talented kids</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <img src="images/gallery/video-thumb-2.jpg" alt="Science Exhibition" class="img-fluid">
+                            <a href="#" class="video-play-btn" data-bs-toggle="modal" data-bs-target="#videoModal2">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                        <div class="video-caption">
+                            <h5>Science Exhibition</h5>
+                            <p>Little scientists and their discoveries</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <img src="images/gallery/video-thumb-3.jpg" alt="Virtual Tour" class="img-fluid">
+                            <a href="#" class="video-play-btn" data-bs-toggle="modal" data-bs-target="#videoModal3">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                        <div class="video-caption">
+                            <h5>School Virtual Tour</h5>
+                            <p>Explore our campus facilities in detail</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonial-section section-padding">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <h2>Parent Testimonials</h2>
+                <p>What parents say about their child's experience at Indo American Play School</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="testimonial-carousel" data-aos="fade-up">
+                        <div class="testimonial-item">
+                            <div class="testimonial-content">
+                                <div class="testimonial-quote">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <p class="testimonial-text">My daughter has transformed from a shy child to a confident speaker in just six months at Indo American Play School. The balanced approach of American teaching methods with Indian values has been perfect for her development.</p>
+                                <div class="testimonial-author">
+                                    <img src="images/testimonial-1.jpg" alt="Parent" class="testimonial-avatar">
+                                    <div>
+                                        <h5>Priya Sharma</h5>
+                                        <p>Parent of Ananya, UKG</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="testimonial-content">
+                                <div class="testimonial-quote">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <p class="testimonial-text">The facilities at Indo American Play School are outstanding. My son loves the outdoor play areas and the STEM lab. The teachers are attentive and provide personalized attention to each child's unique learning style.</p>
+                                <div class="testimonial-author">
+                                    <img src="images/testimonial-2.jpg" alt="Parent" class="testimonial-avatar">
+                                    <div>
+                                        <h5>Rahul Mehra</h5>
+                                        <p>Parent of Aryan, LKG</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="testimonial-content">
+                                <div class="testimonial-quote">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <p class="testimonial-text">What sets Indo American Play School apart is their perfect blend of fun and learning. My twins have developed amazing social skills while also building a strong academic foundation. The bilingual approach has been especially beneficial.</p>
+                                <div class="testimonial-author">
+                                    <img src="images/testimonial-3.jpg" alt="Parent" class="testimonial-avatar">
+                                    <div>
+                                        <h5>Sneha & Vikram Patel</h5>
+                                        <p>Parents of Rohan & Riya, Nursery</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Share Memories CTA -->
+    <section class="share-memories section-padding bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mb-4 mb-lg-0">
+                    <h2 class="mb-3">Share Your Memories With Us</h2>
+                    <p class="lead mb-0">Parents, have a special photo or video of your child's moments at Indo American Play School? Share them with us and they might be featured in our gallery!</p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#shareMemoriesModal">Share Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Modals -->
+    <div class="modal fade" id="videoModal1" tabindex="-1" aria-labelledby="videoModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModal1Label">Annual Day Performance</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" title="Annual Day Performance" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="videoModal2" tabindex="-1" aria-labelledby="videoModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModal2Label">Science Exhibition</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" title="Science Exhibition" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="videoModal3" tabindex="-1" aria-labelledby="videoModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModal3Label">School Virtual Tour</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" title="School Virtual Tour" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Share Memories Modal -->
+    <div class="modal fade" id="shareMemoriesModal" tabindex="-1" aria-labelledby="shareMemoriesModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="shareMemoriesModalLabel">Share Your Memories</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="shareMemoriesForm">
+                        <div class="mb-3">
+                            <label for="parentName" class="form-label">Your Name*</label>
+                            <input type="text" class="form-control" id="parentName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="childName" class="form-label">Child's Name*</label>
+                            <input type="text" class="form-control" id="childName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="childClass" class="form-label">Child's Class*</label>
+                            <select class="form-select" id="childClass" required>
+                                <option value="" selected disabled>Select Class</option>
+                                <option value="playgroup">Playgroup</option>
+                                <option value="nursery">Nursery</option>
+                                <option value="lkg">LKG</option>
+                                <option value="ukg">UKG</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="eventDetails" class="form-label">Event/Activity Details</label>
+                            <input type="text" class="form-control" id="eventDetails">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mediaUpload" class="form-label">Upload Photos/Videos*</label>
+                            <input type="file" class="form-control" id="mediaUpload" accept="image/*,video/*" multiple required>
+                            <div class="form-text">Max 5 files. Maximum size: 10MB per file.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="description" class="form-label">Description</label>
+                            <textarea class="form-control" id="description" rows="3"></textarea>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" id="consentCheck" required>
+                            <label class="form-check-label" for="consentCheck">
+                                I consent to Indo American Play School using these media files on their website and social media channels.
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" form="shareMemoriesForm">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <div class="footer-logo">
+                            <img src="images/logo-white.png" alt="Indo American Play School Logo" class="img-fluid">
+                        </div>
+                        <p class="mt-3">Where East meets West and little minds take flight in a nurturing environment of fun-filled learning and growth.</p>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="programs.html">Programs</a></li>
+                            <li><a href="facilities.html">Facilities</a></li>
+                            <li><a href="admissions.html">Admissions</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <h4>Programs</h4>
+                        <ul class="footer-links">
+                            <li><a href="programs.html#playgroup">Playgroup (2-2.5 years)</a></li>
+                            <li><a href="programs.html#nursery">Nursery (2.5-3.5 years)</a></li>
+                            <li><a href="programs.html#lkg">LKG (3.5-4.5 years)</a></li>
+                            <li><a href="programs.html#ukg">UKG (4.5-5.5 years)</a></li>
+                            <li><a href="programs.html#enrichment">Enrichment Programs</a></li>
+                            <li><a href="programs.html#summer-camp">Summer Camp</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4>Contact Us</h4>
+                        <ul class="footer-contact">
+                            <li><i class="fas fa-map-marker-alt"></i> 123 Education Lane, Knowledge Park, New Delhi - 110001</li>
+                            <li><i class="fas fa-phone-alt"></i> +91 98765 43210</li>
+                            <li><i class="fas fa-envelope"></i> admissions@indoamericanschool.com</li>
+                            <li><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 4:00 PM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="mb-md-0">© 2025 Indo American Play School. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <ul class="footer-bottom-links">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="developer-tag">
+                    Developed with <span class="heart">&hearts;</span> by <a href="https://www.linkedin.com/in/umesh-patel-5647b42a4/" target="_blank">Umesh Patel</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    
+    <!-- Gallery Filter JS -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Gallery filtering functionality
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Remove active class from all buttons
+                    filterBtns.forEach(btn => {
+                        btn.classList.remove('active');
+                    });
+                    
+                    // Add active class to clicked button
+                    btn.classList.add('active');
+                    
+                    const filterValue = btn.getAttribute('data-filter');
+                    
+                    galleryItems.forEach(item => {
+                        if (filterValue === 'all' || item.classList.contains(filterValue)) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Load more functionality (simulation)
+            const loadMoreBtn = document.getElementById('loadMoreBtn');
+            let clickCount = 0;
+            
+            loadMoreBtn.addEventListener('click', function() {
+                clickCount++;
+                if (clickCount >= 2) {
+                    this.disabled = true;
+                    this.textContent = 'No More Photos';
+                } else {
+                    // Here you would normally load more photos from server
+                    // This is just a placeholder for demonstration
+                    alert('In a live website, more photos would be loaded here.');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
